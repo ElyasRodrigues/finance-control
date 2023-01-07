@@ -1,0 +1,90 @@
+.form-container{
+  color: #f2f2f2;
+  max-width: 1120px;
+  width: 94%;
+  margin: 2rem auto;
+  background-color: rgb(107, 106, 106);
+  box-shadow: 0px 0px 5px rgba(204, 204, 204, 0.879);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 8px;
+  gap: 10px;
+}
+.input-content{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  outline: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+}
+
+.radio-group{
+  display: flex;
+  align-items: center;
+}
+.radio-group input{
+  margin-left: 2rem;
+  accent-color: #000;
+  margin-top: 0;
+}
+.radio-group label{
+  margin-left: .3rem;
+}
+button{
+  padding: .2rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background-color: #dfdfdf;
+}
+
+@media(max-width: 1050px){
+  input{
+    width: 65%;
+  }
+}
+
+
+
+
+@media(max-width: 750px){
+  .form-container{
+    display: grid;
+    margin: 1rem auto;
+  }
+  input{
+    width: 89%;
+    padding: .1rem 1rem;
+  }
+  .radio-group{
+    height: 3rem;
+  }
+  .radio-group input{
+    width: 50px;
+  }
+  .radio-group label{
+    margin-left: -12px;
+  }
+
+}
+
+@media (max-width: 520px){
+  .form-container{
+    width: 88%;
+  }
+
+}
+@media (max-width: 340px){
+  input{
+    width: 88%;
+  }
+
+}
+

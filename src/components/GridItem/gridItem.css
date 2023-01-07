@@ -1,0 +1,18 @@
+td{
+  padding-top: 1.5rem;
+  text-align: center;
+  word-break: break-all;
+  
+}
+
+.grid-container svg{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+@media(max-width: 520px){
+  .grid-container svg{
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}

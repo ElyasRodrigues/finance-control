@@ -1,0 +1,92 @@
+.card-container{
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(107, 106, 106);
+  border-radius: 5px;
+  padding: .5rem 1.5rem;
+  width: 30%;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+  margin: 1.2rem auto;
+}
+
+.card-container svg{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+span{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+
+@media(max-width: 750px){
+  .card-container{
+    width: 24%;
+  }
+  p{
+    font-size: 1.3rem;
+    display: none;
+  }
+  span{
+    font-size: 1.5rem;
+  }
+  .card-container svg{
+    height: 2rem;
+    width: 2rem;
+  }
+}
+@media(max-width: 635px){
+  .card-container{
+    width: 29%;
+    padding: .4rem;
+  }
+  .card-header{
+    margin: 1rem auto;
+  }
+}
+@media(max-width: 520px){
+  .card-container{
+    width: 28%;
+  }
+  span{
+    font-size: 1.4rem;
+  }
+}
+@media(max-width: 424px){
+  span{
+    font-size: 1.1rem;
+  }
+  .card-header{
+    margin: .4rem auto;
+  }
+  .card-container svg{
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+}
+
+@media(max-width: 340px){
+  span{
+    font-size: .9rem;
+  }
+  .card-container svg{
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
